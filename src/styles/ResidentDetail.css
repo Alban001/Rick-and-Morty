@@ -1,0 +1,124 @@
+.residenContainer{
+
+    width:15rem;
+    padding: 1rem;
+    height: auto;
+    margin: 1.5rem;
+    background-color: rgb(21, 76, 18);
+    border-radius: 1rem;
+    color: rgb(230, 222, 222);
+    /* box-shadow: rgb(27, 255, 15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+    box-shadow: rgb(12, 116, 7) 0px -50px 36px -28px inset;
+    li{
+        list-style: none;
+        padding: 0.8rem;
+    }
+    img{
+        margin-top: 1rem;
+        width: 13rem;
+        height: auto;
+        border-radius: 1rem;
+       
+    }
+   
+}
+
+    .red-dot {
+        height: 18px;
+        width: 18px;
+        background-color: #ff0905;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.7rem;
+        margin-top: 0.9rem;
+   
+      }
+      .green-dot {
+        height: 18px;
+        width: 18px;
+        background-color: #58ff05;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.7rem;
+        margin-top: 0.9rem;
+        
+      }
+       .unknow-dot {
+        height: 18px;
+        width: 18px;
+        background-color: #a4af9e;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 0.7rem;
+        margin-top: 0.9rem;
+        
+      }
+      .status-container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 3rem;
+      }
+
+      @media only screen and (max-width: 750px){
+        .residenContainer{
+
+          width:8rem;
+          padding: 0.5rem;
+          height: auto;
+          margin: 1rem;
+          background-color: rgb(21, 76, 18);
+          border-radius: 1rem;
+          color: rgb(230, 222, 222);
+          /* box-shadow: rgb(27, 255, 15) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
+          box-shadow: rgb(12, 116, 7) 0px -50px 36px -28px inset;
+          li{
+              list-style: none;
+              padding: 0.2;
+              font-size: smaller;
+          }
+          img{
+              margin-top: 1rem;
+              width: 7rem;
+              height: auto;
+              border-radius: 1rem;
+             
+          }
+         
+      }
+      
+          .red-dot {
+              height: 9px;
+              width: 9px;
+              background-color: #ff0905;
+              border-radius: 50%;
+              display: inline-block;
+              margin-left: 0;
+              margin-top: 0.9rem;
+         
+            }
+            .green-dot {
+              height: 9px;
+              width: 9px;
+              background-color: #58ff05;
+              border-radius: 50%;
+              display: inline-block;
+              margin-left: 0;
+              margin-top: 0.9rem;
+              
+            }
+             .unknow-dot {
+              height: 9px;
+              width: 9px;
+              background-color: #a4af9e;
+              border-radius: 50%;
+              display: inline-block;
+              margin-left: 0;
+              margin-top: 0.9rem;
+              
+            }
+            .status-container{
+              display: flex;
+              flex-direction: row;
+              margin-left: 3rem;
+            }
+      }
